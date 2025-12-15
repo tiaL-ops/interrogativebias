@@ -2,3 +2,5 @@
 results
 .venv
 __pycache__/
+results_archive/
+pilot_test.py

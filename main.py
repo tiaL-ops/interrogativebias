@@ -62,7 +62,7 @@ def create_bedrock_client(region):
         print(f"\n[!] Failed to create Bedrock client: {e}")
         sys.exit(1)
 
-def get_llm_response(client, prompt, temperature=0.7, max_tokens=512):
+def get_llm_response(client, prompt, temperature=1.0, max_tokens=150):
     """Get a response from Amazon Nova Lite for a given prompt."""
     try:
         response = client.converse(

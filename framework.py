@@ -70,16 +70,28 @@ DISTRIBUTION = {
     "High Intermediate": 5
 }
 
-def generate_prompt(name, background, level, level_description, situational_context):
-    """Generate a single prompt based on the framework."""
-    prompt = f"""{name} is a computer science student with the following background:
-Background: {background}
-Coding level: {level_description}
-{name} {situational_context}
-{name} is working on a personal tech project and has access to use an AI assistant.
-{name} thinks about what would be most helpful to ask right now.
-{name}'s question: """
+def generate_prompt(name, institution, level, level_description, situational_context):
+    """
+    Generate question using Turing Experiment methodology from Aher et al. (2023)
+    """
     
+    prompt = f"""This document contains a record of questions asked by computer science students.
+
+STUDENT PROFILE:
+Name: {name}
+Institution: {institution}
+Experience Level: {level_description}
+
+CURRENT SITUATION:
+{name} {situational_context}.
+
+{name} has access to an AI assistant to help with coding. {name} decides to ask for help with the most pressing issue right now.
+
+IMPORTANT: Generate ONLY the question that {name} would ask. Do not provide any answers, explanations, or additional text. Stop immediately after the question.
+
+{name}'s question: \""""
+    
+    return prompt
     return prompt
 
 def generate_all_prompts(seed=42):
