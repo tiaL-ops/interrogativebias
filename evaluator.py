@@ -18,8 +18,8 @@ client = OpenAI(
 )
 
 # --- CONFIGURATION ---
-INPUT_FILE = "results/toEvaluate.csv"  
-OUTPUT_DIR = "results"
+INPUT_FILE = "results_ablation/toEvaluate_ablation.csv"  
+OUTPUT_DIR = "results_ablation"
 OUTPUT_FILE = "data_evaluationGPT4D.csv"
 
 def evaluate_question(question_text):

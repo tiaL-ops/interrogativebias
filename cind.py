@@ -89,25 +89,6 @@ def load_data(results_dir):
     return None
 
 def extract_university(row):
-    """Extract university affiliation from question or metadata."""
-    # Try different column names
-    text = ""
-    if 'llm_response' in row and pd.notna(row['llm_response']):
-        text = str(row['llm_response'])
-    elif 'llm_generated_question' in row and pd.notna(row['llm_generated_question']):
-        text = str(row['llm_generated_question'])
-    elif 'question' in row and pd.notna(row['question']):
-        text = str(row['question'])
-    elif 'persona' in row and pd.notna(row['persona']):
-        # Use persona column if available
-        return row['persona']
-    
-    if 'MIT' in text:
-        return 'MIT'
-    elif 'Antananarivo' in text or 'Madagascar' in text or 'Malagasy' in text:
-        return 'Malagasy'
-    
-    # Fallback to persona column
     if 'persona' in row and pd.notna(row['persona']):
         persona = str(row['persona']).lower()
         if 'mit' in persona:
