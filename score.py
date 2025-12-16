@@ -25,10 +25,10 @@ print("LOADING DATA")
 print("="*60)
 
 # Load GPT evaluations
-df_eval = pd.read_csv("results_gpt/data_evaluationGPT4D.csv")
+df_eval = pd.read_csv("results/data_evaluationGPT4D.csv")
 
 # Load full LLM responses
-df_full = pd.read_csv("results_gpt/llm_responses.csv")
+df_full = pd.read_csv("results/llm_responses.csv")
 
 print(f"\nEvaluation data: {df_eval.shape}")
 print(f"Full responses data: {df_full.shape}")
@@ -372,8 +372,8 @@ results = {
     }
 }
 
-print("\n💾 Saving results to results_gpt/statistical_analysis.json...")
-with open('results_gpt/statistical_analysis.json', 'w') as f:
+print("\n💾 Saving results to results/statistical_analysis.json...")
+with open('results/statistical_analysis.json', 'w') as f:
     json.dump(results, f, indent=2)
 
 print("\n" + "="*60)

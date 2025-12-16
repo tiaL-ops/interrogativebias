@@ -36,4 +36,4 @@ if __name__ == "__main__":
     
     # Show example of pairing
     print("\nExample - First 10 rows showing MIT/Malagasy pairs:")
-    print(merged_df[['prompt_id', 'persona', 'level', 'situational_context', 'question']].head(10))
+    print(merged_df[['prompt_id', 'persona', 'level', 'situational_context', 'llm_generated_question']].head(10))

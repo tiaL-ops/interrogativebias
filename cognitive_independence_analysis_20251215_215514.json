@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "timestamp": "20251215_215514",
+    "total_questions": 64,
+    "mit_questions": 32,
+    "malagasy_questions": 32,
+    "depth_distribution": {
+      "depth_2": {
+        "MIT": 16,
+        "Malagasy": 16
+      },
+      "depth_1": {
+        "MIT": 16,
+        "Malagasy": 16
+      }
+    }
+  },
+  "simple_pattern_analysis": {
+    "depth_1": {
+      "MIT": {
+        "hedging": 1,
+        "dependency": 1
+      },
+      "Malagasy": {
+        "confidence": 1,
+        "dependency": 2
+      }
+    },
+    "depth_2": {
+      "MIT": {
+        "dependency": 1
+      },
+      "Malagasy": {
+        "dependency": 2
+      }
+    }
+  },
+  "llm_deep_analysis": {
+    "depth_1": {
+      "depth_level": 1,
+      "mit_sample_size": 16,
+      "malagasy_sample_size": 16,
+      "independence_comparison": {
+        "mit_characteristics": [
+          "More conceptual understanding questions",
+          "Focus on specific technical issues"
+        ],
+        "malagasy_characteristics": [
+          "More dependent on guidance",
+          "Emphasis on learning resources"
+        ],
+        "key_differences": [
+          "MIT questions often seek to understand concepts or specific coding issues",
+          "Malagasy questions frequently ask for help or recommendations"
+        ]
+      },
+      "unique_phrases": {
+        "mit_unique": [
+          "smoothly animate",
+          "detect collision",
+          "difference between a variable and a constant"
+        ],
+        "malagasy_unique": [
+          "vibecoding",
+          "animation loop",
+          "best programming languages for beginners"
+        ],
+        "mit_common_patterns": [
+          "How do I...",
+          "What is the difference..."
+        ],
+        "malagasy_common_patterns": [
+          "How can I...",
+          "Can you help me..."
+        ]
+      },
+      "hedging_analysis": {
+        "mit_hedging_count": 0,
+        "malagasy_hedging_count": 0,
+        "mit_hedging_examples": [],
+        "malagasy_hedging_examples": []
+      },
+      "self_sufficiency": {
+        "mit_prior_effort_count": 0,
+        "malagasy_prior_effort_count": 1,
+        "mit_clear_goals_count": 0,
+        "malagasy_clear_goals_count": 4
+      },
+      "summary": "MIT students tend to ask more questions focused on understanding concepts and specific technical issues, whereas Malagasy students often seek guidance and recommendations. Both groups show minimal hedging language, but Malagasy questions indicate clearer goals and prior efforts more frequently."
+    },
+    "depth_2": {
+      "depth_level": 2,
+      "mit_sample_size": 16,
+      "malagasy_sample_size": 16,
+      "independence_comparison": {
+        "mit_characteristics": [
+          "Focus on optimization and efficiency",
+          "Emphasis on technical implementation"
+        ],
+        "malagasy_characteristics": [
+          "Focus on improving skills and understanding concepts",
+          "Emphasis on practical application"
+        ],
+        "key_differences": [
+          "MIT questions are more technical and solution-oriented",
+          "Malagasy questions are more exploratory and skill-development oriented"
+        ]
+      },
+      "unique_phrases": {
+        "mit_unique": [
+          "optimize",
+          "performance",
+          "scalability",
+          "enhance computational efficiency"
+        ],
+        "malagasy_unique": [
+          "improve my problem-solving skills",
+          "make a simple API request",
+          "implement a responsive navigation bar"
+        ],
+        "mit_common_patterns": [
+          "How can I optimize...",
+          "How do I..."
+        ],
+        "malagasy_common_patterns": [
+          "How can I improve...",
+          "Can you explain how to..."
+        ]
+      },
+      "hedging_analysis": {
+        "mit_hedging_count": 0,
+        "malagasy_hedging_count": 0,
+        "mit_hedging_examples": [],
+        "malagasy_hedging_examples": []
+      },
+      "self_sufficiency": {
+        "mit_prior_effort_count": 0,
+        "malagasy_prior_effort_count": 0,
+        "mit_clear_goals_count": 0,
+        "malagasy_clear_goals_count": 0
+      },
+      "summary": "MIT students tend to focus more on optimization and technical implementation, while Malagasy students emphasize skill improvement and practical applications. Both groups show a lack of hedging language and indicators of prior effort or clear goals."
+    }
+  }
+}

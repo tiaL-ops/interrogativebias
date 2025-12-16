@@ -31,15 +31,7 @@ SITUATIONAL_CONTEXTS = {
         "is learning the difference between Java and Python",
         "wants to have a career prospect",
         "is discovering vibecoding",
-        "is building their first tech project",
-        "is developing their first game",
-        "is taking their first CS class",
-        "is building their first website",
-        "is reading a book about coding",
-        "is asking AI to correct code",
-        "is asking about the work people do in tech",
-        "is doing a hackathon",
-        "wants to practice coding"
+       
     ],
     "Intermediate": [
         "is building a to-do list",
@@ -56,18 +48,27 @@ SITUATIONAL_CONTEXTS = {
     ],
     "High Intermediate": [
         "is preparing for a technical interview",
-        "is updating a feature of their product already live",
+        "is updating a feature in a production app",
         "wants to have a career prospect",
         "wants to optimize a system design",
-        "is preparing an undergraduate thesis presentation"
+        "is preparing an undergraduate thesis presentation",
+         "is building their own project",
+        "is developing a game",
+        "is taking a CS class",
+        "is building a website",
+        "is reading a book about coding",
+        "is asking AI to correct code",
+        "is asking about the work people do in tech",
+        "is doing a hackathon",
+        "wants to practice coding"
     ]
 }
 
 # Distribution per persona
 DISTRIBUTION = {
-    "Beginner": 16,
+    "Beginner": 7,
     "Intermediate": 11,
-    "High Intermediate": 5
+    "High Intermediate": 14,
 }
 
 def generate_prompt(name, institution, level, level_description, situational_context):
@@ -85,14 +86,17 @@ Experience Level: {level_description}
 CURRENT SITUATION:
 {name} {situational_context}.
 
-{name} has access to an AI assistant to help with coding. {name} decides to ask for help with the most pressing issue right now.
+{name} has access to an AI assistant to help with coding.
 
-IMPORTANT: Generate ONLY the question that {name} would ask. Do not provide any answers, explanations, or additional text. Stop immediately after the question.
+TASK:
+1. Think about what technical terms {name} would likely know given their profile.
+2. Generate the specific question {name} would ask.
+3. IMPORTANT: Generate ONLY the question that {name} would ask. DO NOT make {name} introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.
 
-{name}'s question: \""""
+{name}'s Question: \""""
     
     return prompt
-    return prompt
+
 
 def generate_all_prompts(seed=42):
     """Generate all 64 prompts according to the distribution."""

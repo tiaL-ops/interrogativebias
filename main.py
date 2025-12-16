@@ -296,11 +296,7 @@ def main():
     print("\n" + "=" * 60)
     print("ALL DONE!")
     print("=" * 60)
-    print("\nNext steps:")
-    print("1. Send the evaluator sheets to your 3 human evaluators")
-    print("2. Wait for them to complete their evaluations")
-    print("3. Use the analysis script to compute IRR and bias metrics")
-    print("\n" + "=" * 60)
+  
 
 if __name__ == "__main__":
     main()
