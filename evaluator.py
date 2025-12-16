@@ -127,7 +127,7 @@ def evaluate_question(question_text):
 if __name__ == "__main__":
     
     # Load the dataset from CSV
-    data_path = "results/toEvaluate.csv"
+    data_path = "results_gpt/toEvaluate.csv"
     df_input = pd.read_csv(data_path)
     
     print(f"Starting evaluation of {len(df_input)} questions...\n")
@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
     # Save to CSV
     df_results = pd.DataFrame(results)
-    output_filename = "results/data_evaluationGPT4D.csv"
+    output_filename = "results_gpt/data_evaluationGPT4D.csv"
     
     # Create results directory if it doesn't exist
     os.makedirs("results", exist_ok=True)
