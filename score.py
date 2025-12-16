@@ -25,8 +25,8 @@ print("="*60)
 # Load GPT evaluations
 df_eval = pd.read_csv("results/data_evaluationGPT.csv")
 
-# Load full LLM responses
-df_full = pd.read_csv("results/llm_responses_20251215_122551.csv")
+# Load full LLM responses (JSON file)
+df_full = pd.read_json("results/llm_responses_20251215_175512.json")
 
 print(f"\nEvaluation data: {df_eval.shape}")
 print(f"Full data: {df_full.shape}")
