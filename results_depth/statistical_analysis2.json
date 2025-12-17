@@ -1,191 +1,191 @@
 {
   "sample_size": {
-    "mit": 94,
-    "malagasy": 94,
-    "total": 188
+    "mit": 188,
+    "malagasy": 188,
+    "total": 376
   },
   "depth_level_accuracy": {
     "overall": {
-      "exact_match_rate": 65.42553191489363,
-      "close_match_rate": 98.40425531914893
+      "exact_match_rate": 66.75531914893617,
+      "close_match_rate": 98.13829787234043
     },
     "mit": {
       "exact_match_rate": 68.08510638297872,
-      "close_match_rate": 97.87234042553192,
-      "overestimated": 13,
-      "underestimated": 17
+      "close_match_rate": 98.40425531914893,
+      "overestimated": 38,
+      "underestimated": 22
     },
     "malagasy": {
-      "exact_match_rate": 62.76595744680851,
-      "close_match_rate": 98.93617021276596,
-      "overestimated": 15,
-      "underestimated": 20
+      "exact_match_rate": 65.42553191489363,
+      "close_match_rate": 97.87234042553192,
+      "overestimated": 30,
+      "underestimated": 35
     },
-    "chi2_statistic": 0.37623514696685434,
-    "p_value": 0.5396250411484105,
+    "chi2_statistic": 0.19174501992031873,
+    "p_value": 0.6614682038421829,
     "significant": false
   },
   "technical_depth_distribution": {
-    "chi2_statistic": 0.42997007904100204,
-    "p_value": 0.8065535065142666,
+    "chi2_statistic": 1.3750943672192881,
+    "p_value": 0.5028078531217657,
     "significant": false,
     "breakdown": [
       {
         "depth_level": 1,
         "description": "Beginner (Basic concepts, syntax)",
-        "mit_count": 24,
-        "mit_percentage": 25.53191489361702,
-        "malagasy_count": 23,
-        "malagasy_percentage": 24.46808510638298,
-        "difference_pct": 1.0638297872340416
+        "mit_count": 41,
+        "mit_percentage": 21.808510638297875,
+        "malagasy_count": 50,
+        "malagasy_percentage": 26.595744680851062,
+        "difference_pct": -4.787234042553187
       },
       {
         "depth_level": 2,
         "description": "Intermediate (Applied concepts, simple projects)",
-        "mit_count": 27,
-        "mit_percentage": 28.723404255319153,
-        "malagasy_count": 23,
-        "malagasy_percentage": 24.46808510638298,
-        "difference_pct": 4.255319148936174
+        "mit_count": 47,
+        "mit_percentage": 25.0,
+        "malagasy_count": 45,
+        "malagasy_percentage": 23.93617021276596,
+        "difference_pct": 1.0638297872340416
       },
       {
         "depth_level": 3,
         "description": "High Intermediate (Complex implementations, advanced topics)",
-        "mit_count": 39,
-        "mit_percentage": 41.48936170212766,
-        "malagasy_count": 42,
-        "malagasy_percentage": 44.680851063829785,
-        "difference_pct": -3.191489361702125
+        "mit_count": 94,
+        "mit_percentage": 50.0,
+        "malagasy_count": 85,
+        "malagasy_percentage": 45.21276595744681,
+        "difference_pct": 4.787234042553187
       }
     ]
   },
   "tech_usage": {
     "means": {
-      "mit": 0.8404255319148937,
-      "malagasy": 0.8829787234042553,
-      "difference": -0.04255319148936165
+      "mit": 0.7074468085106383,
+      "malagasy": 0.8563829787234043,
+      "difference": -0.14893617021276595
     },
     "mann_whitney": {
-      "u_statistic": 4321.0,
-      "p_value": 0.7665703579461829,
+      "u_statistic": 16307.0,
+      "p_value": 0.1329054350339941,
       "significant": false
     },
     "distribution": {
-      "chi2_statistic": 0.08974358974358973,
-      "p_value": 0.9561200534698104,
+      "chi2_statistic": 2.2828828828828827,
+      "p_value": 0.3193583535174479,
       "significant": false,
       "breakdown": [
         {
           "tech_level": 0,
           "description": "None/Standard (pure concepts, standard lib)",
-          "mit_count": 53,
-          "mit_percentage": 56.38297872340425,
-          "malagasy_count": 51,
-          "malagasy_percentage": 54.25531914893617,
-          "difference_pct": 2.1276595744680833
+          "mit_count": 118,
+          "mit_percentage": 62.76595744680851,
+          "malagasy_count": 104,
+          "malagasy_percentage": 55.319148936170215,
+          "difference_pct": 7.4468085106382915
         },
         {
           "tech_level": 1,
           "description": "Name-Dropping (mentions tool without context)",
-          "mit_count": 3,
-          "mit_percentage": 3.1914893617021276,
-          "malagasy_count": 3,
-          "malagasy_percentage": 3.1914893617021276,
+          "mit_count": 7,
+          "mit_percentage": 3.723404255319149,
+          "malagasy_count": 7,
+          "malagasy_percentage": 3.723404255319149,
           "difference_pct": 0.0
         },
         {
           "tech_level": 2,
           "description": "Contextual (specific tools for specific goals)",
-          "mit_count": 38,
-          "mit_percentage": 40.42553191489361,
-          "malagasy_count": 40,
-          "malagasy_percentage": 42.5531914893617,
-          "difference_pct": -2.1276595744680904
+          "mit_count": 63,
+          "mit_percentage": 33.51063829787234,
+          "malagasy_count": 77,
+          "malagasy_percentage": 40.95744680851064,
+          "difference_pct": -7.446808510638299
         }
       ]
     }
   },
   "cognitive_independence": {
-    "mit_mean": 1.351063829787234,
-    "mit_std": 0.7289327418346004,
-    "malagasy_mean": 1.1808510638297873,
-    "malagasy_std": 0.7178637058384737,
-    "difference": 0.1702127659574466,
-    "u_statistic": 4966.5,
-    "p_value": 0.08827507414950951,
+    "mit_mean": 1.2553191489361701,
+    "mit_std": 0.6927611994168363,
+    "malagasy_mean": 1.2127659574468086,
+    "malagasy_std": 0.6761378276974772,
+    "difference": 0.04255319148936154,
+    "u_statistic": 18249.0,
+    "p_value": 0.50084652148531,
     "significant": false
   },
   "technical_depth": {
-    "mit_mean": 2.074468085106383,
-    "mit_std": 0.9186170262443273,
-    "malagasy_mean": 2.074468085106383,
-    "malagasy_std": 0.9753892159678624,
-    "difference": 0.0,
-    "u_statistic": 4372.5,
-    "p_value": 0.8979971233007755,
+    "mit_mean": 2.2180851063829787,
+    "mit_std": 0.8957968120880132,
+    "malagasy_mean": 2.101063829787234,
+    "malagasy_std": 0.9395635214700669,
+    "difference": 0.1170212765957448,
+    "u_statistic": 18837.5,
+    "p_value": 0.23407191580244635,
     "significant": false
   },
   "intent_distribution": {
-    "chi2_statistic": 1.9173617453069507,
-    "p_value": 0.7509549241309765,
+    "chi2_statistic": 2.2557378602111875,
+    "p_value": 0.6888388303691508,
     "significant": false,
     "breakdown": [
       {
         "intent": "Career/Social",
-        "mit_count": 4,
-        "mit_percentage": 4.25531914893617,
-        "malagasy_count": 6,
-        "malagasy_percentage": 6.382978723404255,
-        "difference_pct": -2.127659574468085
+        "mit_count": 7,
+        "mit_percentage": 3.723404255319149,
+        "malagasy_count": 9,
+        "malagasy_percentage": 4.787234042553192,
+        "difference_pct": -1.063829787234043
       },
       {
         "intent": "DSA",
-        "mit_count": 0,
-        "mit_percentage": 0.0,
+        "mit_count": 1,
+        "mit_percentage": 0.5319148936170213,
         "malagasy_count": 1,
-        "malagasy_percentage": 1.0638297872340425,
-        "difference_pct": -1.0638297872340425
+        "malagasy_percentage": 0.5319148936170213,
+        "difference_pct": 0.0
       },
       {
         "intent": "Foundational Learning",
-        "mit_count": 27,
-        "mit_percentage": 28.723404255319153,
-        "malagasy_count": 23,
-        "malagasy_percentage": 24.46808510638298,
-        "difference_pct": 4.255319148936174
+        "mit_count": 41,
+        "mit_percentage": 21.808510638297875,
+        "malagasy_count": 52,
+        "malagasy_percentage": 27.659574468085108,
+        "difference_pct": -5.851063829787233
       },
       {
         "intent": "Product Implementation",
-        "mit_count": 35,
-        "mit_percentage": 37.234042553191486,
-        "malagasy_count": 38,
+        "mit_count": 86,
+        "mit_percentage": 45.744680851063826,
+        "malagasy_count": 76,
         "malagasy_percentage": 40.42553191489361,
-        "difference_pct": -3.191489361702125
+        "difference_pct": 5.319148936170215
       },
       {
         "intent": "Product Optimization",
-        "mit_count": 28,
-        "mit_percentage": 29.78723404255319,
-        "malagasy_count": 26,
-        "malagasy_percentage": 27.659574468085108,
-        "difference_pct": 2.1276595744680833
+        "mit_count": 53,
+        "mit_percentage": 28.191489361702125,
+        "malagasy_count": 50,
+        "malagasy_percentage": 26.595744680851062,
+        "difference_pct": 1.5957446808510625
       }
     ]
   },
   "depth_independence_correlation": {
     "overall": {
-      "spearman_rho": 0.5371849356962707,
-      "p_value": 1.9027416623768954e-15,
+      "spearman_rho": 0.5214583403817203,
+      "p_value": 1.3261121879422583e-27,
       "significant": true
     },
     "mit": {
-      "spearman_rho": 0.4756491272316252,
-      "p_value": 1.2671240576561482e-06,
+      "spearman_rho": 0.47491436890226496,
+      "p_value": 5.742452690395486e-12,
       "significant": true
     },
     "malagasy": {
-      "spearman_rho": 0.604267422256631,
-      "p_value": 1.1301914369186418e-10,
+      "spearman_rho": 0.5659021214533544,
+      "p_value": 2.61725816248416e-17,
       "significant": true
     }
   }
