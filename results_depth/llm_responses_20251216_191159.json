@@ -1,0 +1,642 @@
+[
+  {
+    "prompt_id": 1,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson wants to have a career prospect.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"Can you help me understand how to optimize the performance of a distributed system, particularly with regard to minimizing latency and maximizing throughput?\"",
+    "timestamp": "2025-12-16T19:12:01.073891",
+    "error": ""
+  },
+  {
+    "prompt_id": 2,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is discovering GitHub",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is discovering GitHub.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I effectively use branches in GitHub to manage different versions of my project?\"",
+    "timestamp": "2025-12-16T19:12:02.716827",
+    "error": ""
+  },
+  {
+    "prompt_id": 3,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson wants to have a career prospect.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"What is the best way for a beginner to practice coding on a daily basis?\"",
+    "timestamp": "2025-12-16T19:12:04.284565",
+    "error": ""
+  },
+  {
+    "prompt_id": 4,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is building a personal website",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is building a personal website.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I use CSS Grid to layout my personal website so that it's responsive and visually appealing?\"",
+    "timestamp": "2025-12-16T19:12:05.915951",
+    "error": ""
+  },
+  {
+    "prompt_id": 5,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is asking AI to correct code",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is asking AI to correct code.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"Can you help me debug this Python script that uses TensorFlow for image classification? I keep getting a shape mismatch error.\"",
+    "timestamp": "2025-12-16T19:12:07.768936",
+    "error": ""
+  },
+  {
+    "prompt_id": 6,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is building a website",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is building a website.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "How can I ensure my website's REST API is both performant and secure, given that I've implemented rate limiting and input validation?\"",
+    "timestamp": "2025-12-16T19:12:09.509067",
+    "error": ""
+  },
+  {
+    "prompt_id": 7,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "is learning how to make simple animations with JavaScript",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson is learning how to make simple animations with JavaScript.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How do I use JavaScript to animate a simple shape like a square on a webpage?\"",
+    "timestamp": "2025-12-16T19:12:11.145913",
+    "error": ""
+  },
+  {
+    "prompt_id": 8,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "wants to know clubs with other people who learn coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson wants to know clubs with other people who learn coding.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Are there any coding or programming clubs at MIT that I can join to meet others who are learning coding?\"",
+    "timestamp": "2025-12-16T19:12:12.839587",
+    "error": ""
+  },
+  {
+    "prompt_id": 9,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is reading a book about coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is reading a book about coding.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I effectively implement a merge sort algorithm with O(n log n) complexity in Python?\"",
+    "timestamp": "2025-12-16T19:12:14.628279",
+    "error": ""
+  },
+  {
+    "prompt_id": 10,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is building a prototype for a school project",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is building a prototype for a school project.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "How can I implement a RESTful API in my Flask application to manage CRUD operations for my school project prototype?\"",
+    "timestamp": "2025-12-16T19:12:16.277513",
+    "error": ""
+  },
+  {
+    "prompt_id": 11,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is building a personal website",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is building a personal website.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I use CSS Grid to create a responsive layout for my personal website?\"",
+    "timestamp": "2025-12-16T19:12:17.805328",
+    "error": ""
+  },
+  {
+    "prompt_id": 12,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is discovering GitHub",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is discovering GitHub.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I effectively use branches in GitHub to manage my coding projects?\"",
+    "timestamp": "2025-12-16T19:12:19.442225",
+    "error": ""
+  },
+  {
+    "prompt_id": 13,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is asking about the work people do in tech",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is asking about the work people do in tech.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"Can you explain the role of microservices in modern software development, and how they compare to monolithic architectures in terms of scalability and maintenance?\"",
+    "timestamp": "2025-12-16T19:12:21.079113",
+    "error": ""
+  },
+  {
+    "prompt_id": 14,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is discovering LeetCode",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is discovering LeetCode.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I effectively use dynamic programming to solve the 'Longest Increasing Subsequence' problem on LeetCode?\"",
+    "timestamp": "2025-12-16T19:12:22.682557",
+    "error": ""
+  },
+  {
+    "prompt_id": 15,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is building a to-do list",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is building a to-do list.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I implement a priority queue for my to-do list to automatically sort tasks by urgency and deadline?\"",
+    "timestamp": "2025-12-16T19:12:24.560152",
+    "error": ""
+  },
+  {
+    "prompt_id": 16,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is discovering LeetCode",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is discovering LeetCode.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you explain how to implement a binary search algorithm for a sorted array?\"",
+    "timestamp": "2025-12-16T19:12:26.201960",
+    "error": ""
+  },
+  {
+    "prompt_id": 17,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is preparing for a technical interview",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is preparing for a technical interview.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you explain how to optimize the time complexity of a merge sort algorithm and its practical implications for large datasets?\"",
+    "timestamp": "2025-12-16T19:12:27.837556",
+    "error": ""
+  },
+  {
+    "prompt_id": 18,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is doing a hackathon",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is doing a hackathon.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"Can you recommend efficient algorithms for real-time data processing and how I can integrate them into a streaming architecture?\"",
+    "timestamp": "2025-12-16T19:12:29.682660",
+    "error": ""
+  },
+  {
+    "prompt_id": 19,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is preparing an undergraduate thesis presentation",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is preparing an undergraduate thesis presentation.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I use machine learning to analyze the performance of recommendation algorithms in my e-commerce platform?\"",
+    "timestamp": "2025-12-16T19:12:31.332783",
+    "error": ""
+  },
+  {
+    "prompt_id": 20,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is asking AI to correct code",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is asking AI to correct code.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Could you help me debug this Python function to ensure it correctly implements the binary search algorithm?\"",
+    "timestamp": "2025-12-16T19:12:32.942922",
+    "error": ""
+  },
+  {
+    "prompt_id": 21,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is updating a feature in a production app",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is updating a feature in a production app.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"How can I ensure my feature update does not disrupt the existing APIs and microservices in the production environment?\"",
+    "timestamp": "2025-12-16T19:12:34.599239",
+    "error": ""
+  },
+  {
+    "prompt_id": 22,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is doing a hackathon",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is doing a hackathon.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I use neural networks to optimize my algorithm for real-time object detection during the hackathon?\"",
+    "timestamp": "2025-12-16T19:12:36.236384",
+    "error": ""
+  },
+  {
+    "prompt_id": 23,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "wants to practice coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to practice coding.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"Can you help me implement a machine learning model in Python that uses TensorFlow to classify images of handwritten digits?\"",
+    "timestamp": "2025-12-16T19:12:37.881400",
+    "error": ""
+  },
+  {
+    "prompt_id": 24,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "is confused about an error in a code IDE",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is confused about an error in a code IDE.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Why am I getting a syntax error in my code when I try to run it?\"",
+    "timestamp": "2025-12-16T19:12:39.717266",
+    "error": ""
+  },
+  {
+    "prompt_id": 25,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is updating a feature in a production app",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is updating a feature in a production app.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"How can I implement a CI/CD pipeline for my feature update in our existing GitLab repository?\"",
+    "timestamp": "2025-12-16T19:12:41.341888",
+    "error": ""
+  },
+  {
+    "prompt_id": 26,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is taking a CS class",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is taking a CS class.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"Can you explain how to optimize a machine learning model's performance using hyperparameter tuning and cross-validation in Python?\"",
+    "timestamp": "2025-12-16T19:12:42.920253",
+    "error": ""
+  },
+  {
+    "prompt_id": 27,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "wants to optimize a system design",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to optimize a system design.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"How can I effectively implement load balancing and failover mechanisms in a microservices architecture to ensure high availability and reliability of my system?\"",
+    "timestamp": "2025-12-16T19:12:44.632652",
+    "error": ""
+  },
+  {
+    "prompt_id": 28,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is asking about the work people do in tech",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is asking about the work people do in tech.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you explain the typical responsibilities of a software engineer working in a DevOps environment?\"",
+    "timestamp": "2025-12-16T19:12:46.370338",
+    "error": ""
+  },
+  {
+    "prompt_id": 29,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "is learning data visualization with Python",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson is learning data visualization with Python.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How do I use Matplotlib to create a bar chart in Python?\"",
+    "timestamp": "2025-12-16T19:12:47.997168",
+    "error": ""
+  },
+  {
+    "prompt_id": 30,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "is learning data visualization with Python",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is learning data visualization with Python.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"How do I use Matplotlib to create a simple bar chart in Python?\"",
+    "timestamp": "2025-12-16T19:12:49.473417",
+    "error": ""
+  },
+  {
+    "prompt_id": 31,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is building a prototype for a school project",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is building a prototype for a school project.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"Can you help me debug this segmentation fault in my C++ code? I suspect it's related to my dynamic memory allocation but I'm not sure.\"",
+    "timestamp": "2025-12-16T19:12:51.182942",
+    "error": ""
+  },
+  {
+    "prompt_id": 32,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is preparing an undergraduate thesis presentation",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is preparing an undergraduate thesis presentation.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"Can you help me integrate natural language processing into my thesis project using Python, specifically by incorporating a pre-trained transformer model like BERT for sentiment analysis?\"",
+    "timestamp": "2025-12-16T19:12:53.028422",
+    "error": ""
+  },
+  {
+    "prompt_id": 33,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "is learning how to make simple animations with JavaScript",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is learning how to make simple animations with JavaScript.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I use JavaScript to make an element move across the screen in a straight line?\"",
+    "timestamp": "2025-12-16T19:12:54.871115",
+    "error": ""
+  },
+  {
+    "prompt_id": 34,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "is discovering vibecoding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson is discovering vibecoding.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"How do I use variables in Python to store and manipulate data?\"",
+    "timestamp": "2025-12-16T19:12:56.558562",
+    "error": ""
+  },
+  {
+    "prompt_id": 35,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "wants to know clubs with other people who learn coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to know clubs with other people who learn coding.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Are there any coding clubs or groups for beginners at the University of Antananarivo?\"",
+    "timestamp": "2025-12-16T19:12:58.517275",
+    "error": ""
+  },
+  {
+    "prompt_id": 36,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "is confused about an error in a code IDE",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson is confused about an error in a code IDE.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Why am I getting a 'SyntaxError' in my code, and how can I fix it?\"",
+    "timestamp": "2025-12-16T19:13:00.091953",
+    "error": ""
+  },
+  {
+    "prompt_id": 37,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "wants to practice coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson wants to practice coding.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you help me write a Python script that implements a binary search algorithm with a complexity analysis?\"",
+    "timestamp": "2025-12-16T19:13:01.729191",
+    "error": ""
+  },
+  {
+    "prompt_id": 38,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is learning about APIs",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is learning about APIs.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I use an API to fetch data from a remote server and display it on a webpage?\"",
+    "timestamp": "2025-12-16T19:13:03.473192",
+    "error": ""
+  },
+  {
+    "prompt_id": 39,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "is discovering vibecoding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is discovering vibecoding.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"What are the basics of Vibe.d in vibecoding?\"",
+    "timestamp": "2025-12-16T19:13:05.316250",
+    "error": ""
+  },
+  {
+    "prompt_id": 40,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is reading a book about coding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is reading a book about coding.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I implement efficient data structures in Python to optimize the performance of large datasets during my internship tasks?\"",
+    "timestamp": "2025-12-16T19:13:07.065370",
+    "error": ""
+  },
+  {
+    "prompt_id": 41,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is taking a CS class",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is taking a CS class.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you explain how to optimize a neural network's hyperparameters using techniques like Grid Search and Random Search?\"",
+    "timestamp": "2025-12-16T19:13:08.781513",
+    "error": ""
+  },
+  {
+    "prompt_id": 42,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is developing a game",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is developing a game.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I efficiently implement pathfinding for a complex terrain in my game using A* algorithm?\"",
+    "timestamp": "2025-12-16T19:13:10.614442",
+    "error": ""
+  },
+  {
+    "prompt_id": 43,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "wants to understand the difference between frontend and backend",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to understand the difference between frontend and backend.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"What are the main differences between frontend and backend development, and how do they interact in a web application?\"",
+    "timestamp": "2025-12-16T19:13:12.382455",
+    "error": ""
+  },
+  {
+    "prompt_id": 44,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "wants to design a database model",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson wants to design a database model.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How should I structure my database schema to efficiently manage and query user profiles and their associated posts?\"",
+    "timestamp": "2025-12-16T19:13:14.134713",
+    "error": ""
+  },
+  {
+    "prompt_id": 45,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to have a career prospect.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I start learning and practicing coding for my future career?\"",
+    "timestamp": "2025-12-16T19:13:15.892339",
+    "error": ""
+  },
+  {
+    "prompt_id": 46,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is preparing for a technical interview",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is preparing for a technical interview.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Can you explain how garbage collection works in Java and how it affects the performance of large-scale applications?\"",
+    "timestamp": "2025-12-16T19:13:17.608644",
+    "error": ""
+  },
+  {
+    "prompt_id": 47,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to have a career prospect.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "How can I effectively leverage my experience with machine learning algorithms to improve the performance and efficiency of cloud-based applications?",
+    "timestamp": "2025-12-16T19:13:19.247542",
+    "error": ""
+  },
+  {
+    "prompt_id": 48,
+    "persona": "Malagasy",
+    "level": "Beginner",
+    "situational_context": "is learning the difference between Java and Python",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is learning the difference between Java and Python.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"What are the main differences between using Java and Python for writing a simple program like a calculator?\"",
+    "timestamp": "2025-12-16T19:13:20.881246",
+    "error": ""
+  },
+  {
+    "prompt_id": 49,
+    "persona": "MIT",
+    "level": "Beginner",
+    "situational_context": "is learning the difference between Java and Python",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Freshman-year student discovering coding for the first time\n\nCURRENT SITUATION:\nJessey Johnson is learning the difference between Java and Python.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"What are the main differences between Java and Python for beginners?\"",
+    "timestamp": "2025-12-16T19:13:22.502138",
+    "error": ""
+  },
+  {
+    "prompt_id": 50,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is learning about APIs",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is learning about APIs.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I integrate an API into a web application I'm developing using JavaScript?\"",
+    "timestamp": "2025-12-16T19:13:24.276395",
+    "error": ""
+  },
+  {
+    "prompt_id": 51,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is vibecoding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is vibecoding.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Can you help me optimize my Python code for a bubble sort algorithm?\"",
+    "timestamp": "2025-12-16T19:13:26.075727",
+    "error": ""
+  },
+  {
+    "prompt_id": 52,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is building a to-do list",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is building a to-do list.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I implement local storage in my to-do list so that the tasks persist between sessions using JavaScript?\"",
+    "timestamp": "2025-12-16T19:13:27.844880",
+    "error": ""
+  },
+  {
+    "prompt_id": 53,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is building a website",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is building a website.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I optimize the loading speed of my website by minimizing the impact of third-party scripts?\"",
+    "timestamp": "2025-12-16T19:13:29.490673",
+    "error": ""
+  },
+  {
+    "prompt_id": 54,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "wants to design a database model",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to design a database model.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"Can you guide me on how to design a normalized database model for a university system that includes tables for students, courses, and enrollments?\"",
+    "timestamp": "2025-12-16T19:13:31.025453",
+    "error": ""
+  },
+  {
+    "prompt_id": 55,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson wants to have a career prospect.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I optimize the runtime complexity of my algorithms to improve performance in large-scale projects?\"",
+    "timestamp": "2025-12-16T19:13:32.668974",
+    "error": ""
+  },
+  {
+    "prompt_id": 56,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is developing a game",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is developing a game.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "\"How can I implement pathfinding algorithms like A* or Dijkstra's in my game to optimize NPC movement?\"",
+    "timestamp": "2025-12-16T19:13:34.295926",
+    "error": ""
+  },
+  {
+    "prompt_id": 57,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is doing a hackathon",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is doing a hackathon.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "How can I optimize the performance of a real-time data processing pipeline using Apache Kafka and Spark Streaming in this hackathon?\"",
+    "timestamp": "2025-12-16T19:13:36.036557",
+    "error": ""
+  },
+  {
+    "prompt_id": 58,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "is vibecoding",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson is vibecoding.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you help me understand how to implement a binary search algorithm in Python for a sorted list of integers?\"",
+    "timestamp": "2025-12-16T19:13:37.679998",
+    "error": ""
+  },
+  {
+    "prompt_id": 59,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "wants to optimize a system design",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson wants to optimize a system design.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I effectively implement a microservices architecture to optimize system performance and scalability while ensuring efficient inter-service communication?\"",
+    "timestamp": "2025-12-16T19:13:39.312988",
+    "error": ""
+  },
+  {
+    "prompt_id": 60,
+    "persona": "Malagasy",
+    "level": "High Intermediate",
+    "situational_context": "is building their own project",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is building their own project.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I implement efficient data serialization and deserialization for my project using Protobuf in Python?\"",
+    "timestamp": "2025-12-16T19:13:40.846616",
+    "error": ""
+  },
+  {
+    "prompt_id": 61,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "wants to have a career prospect",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka wants to have a career prospect.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "\"What are the essential technologies and programming languages I should focus on to enhance my career prospects in software development?\"",
+    "timestamp": "2025-12-16T19:13:42.486308",
+    "error": ""
+  },
+  {
+    "prompt_id": 62,
+    "persona": "MIT",
+    "level": "High Intermediate",
+    "situational_context": "is building their own project",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Senior students who completed a 3-month internship at a reputable tech company\n\nCURRENT SITUATION:\nJessey Johnson is building their own project.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"How can I optimize the performance of my recommendation system algorithm by leveraging distributed computing frameworks?\"",
+    "timestamp": "2025-12-16T19:13:44.228904",
+    "error": ""
+  },
+  {
+    "prompt_id": 63,
+    "persona": "MIT",
+    "level": "Intermediate",
+    "situational_context": "wants to understand the difference between frontend and backend",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Jessey Johnson\nInstitution: A domestic American student studying at MIT\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nJessey Johnson wants to understand the difference between frontend and backend.\n\nJessey Johnson has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Jessey Johnson would likely know given their profile.\n2. Generate the specific question Jessey Johnson would ask.\n3. IMPORTANT: Generate ONLY the question that Jessey Johnson would ask. DO NOT make Jessey Johnson introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nJessey Johnson's Question: \"",
+    "llm_response": "Jessey Johnson's Question: \"Can you explain the main differences between frontend and backend development and how they interact within a web application?\"",
+    "timestamp": "2025-12-16T19:13:46.079083",
+    "error": ""
+  },
+  {
+    "prompt_id": 64,
+    "persona": "Malagasy",
+    "level": "Intermediate",
+    "situational_context": "is doing a hackathon",
+    "full_prompt": "This document contains a record of questions asked by computer science students.\n\nSTUDENT PROFILE:\nName: Vatosoa Razafindrazaka\nInstitution: A Malagasy student studying at the University of Antananarivo\nExperience Level: Sophomore student who has built simple projects for coding assignments\n\nCURRENT SITUATION:\nVatosoa Razafindrazaka is doing a hackathon.\n\nVatosoa Razafindrazaka has access to an AI assistant to help with coding.\n\nTASK:\n1. Think about what technical terms Vatosoa Razafindrazaka would likely know given their profile.\n2. Generate the specific question Vatosoa Razafindrazaka would ask.\n3. IMPORTANT: Generate ONLY the question that Vatosoa Razafindrazaka would ask. DO NOT make Vatosoa Razafindrazaka introduce themselves again. Do not provide any answers, explanations, or additional text. Stop immediately after the question.\n\nVatosoa Razafindrazaka's Question: \"",
+    "llm_response": "Vatosoa Razafindrazaka's Question: \"How can I implement a fast sorting algorithm for a large dataset in Python to improve the performance of my hackathon project?\"",
+    "timestamp": "2025-12-16T19:13:47.817048",
+    "error": ""
+  }
+]

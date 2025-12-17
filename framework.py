@@ -66,9 +66,9 @@ SITUATIONAL_CONTEXTS = {
 
 # Distribution per persona
 DISTRIBUTION = {
-    "Beginner": 7,
-    "Intermediate": 11,
-    "High Intermediate": 14,
+    "Beginner": 24,
+    "Intermediate": 32,
+    "High Intermediate": 38,
 }
 
 def generate_prompt(name, institution, level, level_description, situational_context):

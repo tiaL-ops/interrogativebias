@@ -18,9 +18,9 @@ client = OpenAI(
 )
 
 # --- CONFIGURATION ---
-INPUT_FILE = "results_ablation/toEvaluate_ablation.csv"  
-OUTPUT_DIR = "results_ablation"
-OUTPUT_FILE = "data_evaluationGPT4D.csv"
+INPUT_FILE = "results_depth_scale/toEvaluate.csv"  
+OUTPUT_DIR = "results_depth_scale"
+OUTPUT_FILE = "Eval1.csv"
 
 def evaluate_question(question_text):
     """
@@ -33,44 +33,44 @@ def evaluate_question(question_text):
 
     ### RUBRIC
 
-    **1. Technical Depth (0-4)**
-    *Complexity of the computer science concepts.*
-    - 0 (Non-Technical): Career advice, social clubs, pure vibe-checks.
-    - 1 (Foundational): Definitions, syntax, "what is X", basic setup.
-    - 2 (Applied): Implementing standard features (loops, simple APIs, standard CRUD).
-    - 3 (Advanced): System design, optimization, handling edge cases, specific tradeoffs.
-    - 4 (Expert): Novel research, compiler internals, distributed consensus, low-level memory management.
+ 
+**1. Technical Depth (0-3)**
+*Complexity of the computer science concepts.*
+- 0 (Non-Technical): Career advice, social clubs, pure vibe-checks.
+- 1 (Foundational): Definitions, syntax, "what is X", basic setup.
+- 2 (Applied): Implementing standard features (loops, simple APIs, standard CRUD).
+- 3 (Advanced): System design, optimization, handling edge cases, specific tradeoffs.
 
-    **2. Cognitive Independence (1-4)**
-    *Who is doing the heavy lifting?*
-    - 1 (Outsourced): "Write code for me." / "Solve this." (Zero effort shown).
-    - 2 (Guided): "How do I implement X?" / "Fix this error." (Task delegated, but specific).
-    - 3 (Analytical): "Why is X better than Y?" / "I tried X, but Y happened." (Reasoning present).
-    - 4 (Metacognitive): "How should I structure my learning?" / "What are the long-term implications of this choice?"
 
-    **3. Technology Usage (0-3)**
-    *Modernity and specificity of the stack.*
-    - 0 (None/Standard): Pure concepts or standard lib Python/Java/C++ (e.g., "How do I sort a list?").
-    - 1 (Name-Dropping): Mentions a tool without context ("Is Docker good?").
-    - 2 (Contextual): Uses specific tools for specific goals ("Using Redis for caching").
-    - 3 (Architectural): Discusses specific frameworks/tools with awareness of their role in a stack ("Next.js vs Create React App for SEO").
+**2. Cognitive Independence (0-3)**
+*Who is doing the heavy lifting?*
+- 0 (Aks for llm to do the work): "Write code for me... solve this, can you ….”
+- 1 (Guided): "How do I implement X?" / "Fix this error." (Task delegated, but specific).
+- 2 (Analytical): "Why is X better than Y?" / "I tried X, but Y happened." (Reasoning present).
+- 3 (Metacognitive): "How should I structure my learning?" / "What are the long-term implications of this choice?"
 
-    **4. Question Intent**
-    *Primary Goal (Select ONE):*
-    - "Foundational Learning"
-    - "Problem-Solving/Implementation"
-    - "Optimization/Scaling"
-    - "Learning Strategy"
-    - "Career/Social"
+**3. Technology Usage (0-3)**
+*Modernity and specificity of the stack.*
+- 0 (None/Standard): Pure concepts or standard lib Python/Java/C++ (e.g., "How do I sort a list?").
+- 1 (Name-Dropping): Mentions a tool without context ("Is Docker good?").
+- 2 (Contextual): Uses specific tools for specific goals ("Using Redis for caching, use github").
+
+
+**4. Question Intent**
+*Primary Goal (Select ONE):*
+- Foundational Learning (just asking , not building)
+- DSA
+- Product Implementation (Invovle student building something)
+- Product Optimization
+- Career/Social
 
     ### OUTPUT JSON FORMAT
     {
         "technical_depth_score": int,
         "cognitive_independence_score": int,
         "technology_usage_score": int,
-        "technology_list": [list of strings],
         "question_intent": string,
-        "reasoning": string
+       
     }
     """
 

@@ -92,7 +92,7 @@ def get_llm_response(client, prompt, temperature=1.0, max_tokens=150):
         
         return f"ERROR: {error_code} - {error_msg}"
 
-def generate_responses_for_all_prompts(client, prompts, output_dir="results_depth"):
+def generate_responses_for_all_prompts(client, prompts, output_dir="results_depth_scale"):
     """Generate LLM responses for all prompts and save results."""
     
     # Create output directory if it doesn't exist
@@ -183,7 +183,7 @@ def generate_responses_for_all_prompts(client, prompts, output_dir="results_dept
     
     return results
 
-def create_evaluation_sheets(results, output_dir="results_depth"):
+def create_evaluation_sheets(results, output_dir="results_depth_scale"):
     """Create evaluation sheets for the 3 human evaluators."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     

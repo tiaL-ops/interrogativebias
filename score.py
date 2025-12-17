@@ -9,8 +9,8 @@ from scipy.stats import chi2_contingency, mannwhitneyu, spearmanr
 import json
 
 # Load data
-df_eval = pd.read_csv("results_depth/Eval1.csv")
-df_full = pd.read_csv("results_depth/llm_responses_20251216_191159.csv")
+df_eval = pd.read_csv("results_depth_scale/Eval1.csv")
+df_full = pd.read_csv("results_depth_scale/llm_responses_20251216_211305.csv")
 df = pd.merge(df_eval, df_full, on='prompt_id', how='inner')
 
 # Prepare data

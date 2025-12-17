@@ -1,0 +1,76 @@
+{
+  "sample_size": {
+    "mit": 32,
+    "malagasy": 32,
+    "total": 64
+  },
+  "tech_usage_level": {
+    "mit_mean": 0.21875,
+    "mit_median": 0.0,
+    "malagasy_mean": 0.21875,
+    "malagasy_median": 0.0,
+    "difference": 0.0,
+    "u_statistic": 512.0,
+    "p_value": 1.0,
+    "significant": false
+  },
+  "cognitive_independence": {
+    "mit_mean": 0.53125,
+    "mit_median": 0.5,
+    "malagasy_mean": 0.53125,
+    "malagasy_median": 1.0,
+    "difference": 0.0,
+    "u_statistic": 504.5,
+    "p_value": 0.9142296598448973,
+    "significant": false
+  },
+  "technical_depth": {
+    "mit_mean": 2.125,
+    "mit_median": 2.0,
+    "malagasy_mean": 2.09375,
+    "malagasy_median": 2.0,
+    "difference": 0.03125,
+    "u_statistic": 512.0,
+    "p_value": 1.0,
+    "significant": false
+  },
+  "intent_distribution": {
+    "chi2_statistic": 1.8884848484848484,
+    "degrees_of_freedom": 4,
+    "p_value": 0.7562600184779802,
+    "significant": false,
+    "intent_counts": {
+      "mit": {
+        "Product implementation": 13,
+        "Foundational Learning": 10,
+        "DSA": 6,
+        "Product optimization": 2,
+        "Career/Social": 1
+      },
+      "malagasy": {
+        "Foundational Learning": 12,
+        "Product implementation": 12,
+        "Product optimization": 4,
+        "DSA": 3,
+        "Career/Social": 1
+      }
+    }
+  },
+  "depth_independence_correlation": {
+    "overall": {
+      "spearman_rho": 0.16450217007473455,
+      "p_value": 0.1939613464381595,
+      "significant": false
+    },
+    "mit": {
+      "spearman_rho": -0.039123864671626825,
+      "p_value": 0.8316437711428122,
+      "significant": false
+    },
+    "malagasy": {
+      "spearman_rho": 0.3736840402336286,
+      "p_value": 0.03513711933658149,
+      "significant": true
+    }
+  }
+}

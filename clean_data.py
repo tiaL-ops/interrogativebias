@@ -30,7 +30,7 @@ def clean_question(text):
 
 def clean_evaluator_files():
     """Process all evaluator CSV files in the results directory."""
-    evaluator_files = glob.glob("results_depth/evaluator_*_sheet_*.csv")
+    evaluator_files = glob.glob("results_depth_scale/evaluator_*_sheet_*.csv")
     
     if not evaluator_files:
         print("No evaluator files found in results/")
