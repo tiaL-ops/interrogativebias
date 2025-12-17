@@ -92,7 +92,7 @@ def get_llm_response(client, prompt, temperature=1.0, max_tokens=150):
         
         return f"ERROR: {error_code} - {error_msg}"
 
-def generate_responses_for_all_prompts(client, prompts, output_dir="results"):
+def generate_responses_for_all_prompts(client, prompts, output_dir="results_depth"):
     """Generate LLM responses for all prompts and save results."""
     
     # Create output directory if it doesn't exist
@@ -183,7 +183,7 @@ def generate_responses_for_all_prompts(client, prompts, output_dir="results"):
     
     return results
 
-def create_evaluation_sheets(results, output_dir="results"):
+def create_evaluation_sheets(results, output_dir="results_depth"):
     """Create evaluation sheets for the 3 human evaluators."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
@@ -246,7 +246,7 @@ def display_sample_responses(results, num_samples=3):
 def main():
     print("=" * 60)
     print("LLM BIAS EVALUATION - MAIN SCRIPT")
-    print("Evaluating bias in LLM responses for MIT vs Malagasy students")
+    print("Evaluating bias in LLM responses for global south, globak")
     print("=" * 60)
     
     # Step 1: Load environment variables
