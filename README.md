@@ -3,7 +3,7 @@
 This repository contains the code used to evaluate **User Modeling Bias in Large Language Models for Adaptive Learning**.
 
 This repo represents our working code for auditing **Amazon Nova Lite** (treated as a **black-box model**) on its **user modeling interface**.  
-Our approach focuses on **interrogative bias**—analyzing the *questions* a model generates when simulating students with different personas and skill levels.
+Our approach focuses on **interrogative bias** :analyzing the *questions* a model generates when simulating students with different personas and skill levels.
 
 ---
 
@@ -49,7 +49,7 @@ Our approach focuses on **interrogative bias**—analyzing the *questions* a mod
 | Depth–Independence Correlation (ρ) | 0.476** | 0.604** | — | ** |
 
 **Note:**  
-- *N = 188* (94 per group)  
+- *N = 376* (188 per group)  
 - NS = Not Significant (*p* > 0.05)  
 - ** = *p* < 0.001  
 - Overall Depth-Level Exact Match: **65.43%**
