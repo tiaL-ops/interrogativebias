@@ -1,4 +1,5 @@
-# Interrogative Bias: Auditing User Modeling in LLMs
+# Interrogative Bias: Auditing User Modeling in LLMs . Accepted 🥳 at [Amazon Trusted Ai Symposium](https://www.amazon.science/conferences-and-events/trusted-ai-symposium-2026)
+
 
 This repository contains the code used to evaluate **User Modeling Bias in Large Language Models for Adaptive Learning**.
 
