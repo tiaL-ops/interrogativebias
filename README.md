@@ -10,6 +10,8 @@ Our approach focuses on **interrogative bias** :analyzing the *questions* a mode
 
 ## Repository Structure
 
+- `TrustedAI_Landy.pdf` Extended abstract
+
 - `framework.py`
   - Contains persona definitions, contexts, and prompting logic.
 
